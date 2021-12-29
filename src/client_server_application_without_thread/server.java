@@ -25,7 +25,7 @@ public class server {
                 //String serverMsg = ((String) cMsg).toUpperCase();
 
                 //sent to client...
-                oos.writeObject("Message Received!!");
+                oos.writeObject("Message Received!!!");
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
