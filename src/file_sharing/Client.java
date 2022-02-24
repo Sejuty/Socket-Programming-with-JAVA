@@ -29,7 +29,7 @@ public class Client {
         File serverFile = new File("G:\\ServerFiles\\" + (String) message);
         byte[] b = new byte[(int) serverFile.length()];
         InputStream is = socket.getInputStream();
-        FileOutputStream fr = new FileOutputStream("G:\\ClientFiles\\ddc.txt");
+        FileOutputStream fr = new FileOutputStream("G:\\ClientFiles\\ddd.txt");
         is.read(b, 0, b.length);
         fr.write(b, 0, b.length);
         System.out.println("File Copied!!");
