@@ -28,7 +28,6 @@ class WriterThread implements Runnable{
             String cMsg;
             while(true)
             {
-
                 cMsg = scanner.nextLine();
                 oos.writeObject(cMsg);
             }

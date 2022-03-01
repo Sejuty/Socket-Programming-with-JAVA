@@ -15,7 +15,6 @@ public class ClientUsingThread {
             new ReaderThread(socket);
             new WriterThread(socket);
 
-
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
